@@ -185,7 +185,7 @@
 }
 
 /* Completed */
-.tasks__list#completed-tasks
+.tasks__list#tasks__list_complete
 .tasks__label {
 
   text-decoration: line-through;
