@@ -10,54 +10,54 @@
 </head>
 <body class="body">
   <header class="header">
-    <img class="header-img" src="assets/img/eisenhower-matrix.jpg" alt="The Eisenhower matrix">
+    <img class="header__img" src="assets/img/eisenhower-matrix.jpg" alt="The Eisenhower matrix">
     <a
-        class="header-info"
+        class="header__link"
         href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?
     </a>
   </header>
   <main class="main">
-    <section id="adding-section">
-      <label class="task-label" for="new-task">Add Item</label>
-      <div class="task-row-wrapper">
-        <input id="new-task" class="task task-input" type="text">
-        <button class=" btn btn-add">Add</button>
+    <section id="tasks_add">
+      <label class="tasks__label" for="tasks__input_new">Add Item</label>
+      <div class="task__row">
+        <input id="tasks__input_new" class="task tasks__input" type="text">
+        <button class=" tasks__btn tasks__btn_add">Add</button>
       </div>
     </section>
-    <section class="incomplete-section">
-      <h3 class="tasks-list-title">Todo</h3>
-      <ul id="incomplete-tasks" class="tasks-list">
-        <li class="tasks-list-item">
-          <input class="task-input" type="checkbox">
-          <label class="task task-label">Pay Bills</label>
-          <input type="text" class="task-input task">
-          <button class="btn btn-edit">Edit</button>
-          <button class="btn btn-delete">
-            <img class="btn-delete-icon" src="assets/icons/remove.svg" alt="Remove icon">
+    <section class="tasks_incomplete">
+      <h3 class="tasks__title">Todo</h3>
+      <ul id="tasks__list_incomplete" class="tasks__list">
+        <li class="tasks__item">
+          <input class="tasks__input" type="checkbox">
+          <label class="task tasks__label">Pay Bills</label>
+          <input type="text" class="tasks__input task">
+          <button class="tasks__btn tasks__btn_edit">Edit</button>
+          <button class="tasks__btn tasks__btn_delete">
+            <img class="tasks__icon_remove" src="assets/icons/remove.svg" alt="Remove icon">
           </button>
         </li>
-        <li class="edit-mode tasks-list-item">
-          <input class="task-input" type="checkbox">
-          <label class="task task-label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task-input task">
-          <button class="btn btn-edit">Save</button>
-          <button class="btn btn-delete">
-            <img class="btn-delete-icon" src="assets/icons/remove.svg" alt="Remove icon">
+        <li class="tasks__item_edit tasks__item">
+          <input class="tasks__input" type="checkbox">
+          <label class="task tasks__label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="tasks__input task">
+          <button class="tasks__btn tasks__btn_edit">Save</button>
+          <button class="tasks__btn tasks__btn_delete">
+            <img class="tasks__icon_remove" src="assets/icons/remove.svg" alt="Remove icon">
           </button>
         </li>
       </ul>
     </section>
-    <section class="complete-section">
-      <h3 class="tasks-list-title">Completed</h3>
-      <ul id="completed-tasks" class="tasks-list">
-        <li class="tasks-list-item">
-          <input class="task-input" type="checkbox" checked>
-          <label class="task task-label">See the Doctor</label>
-          <input type="text" class="task-input task">
-          <button class="btn btn-edit">Edit</button>
-          <button class="btn btn-delete">
-            <img class="btn-delete-icon" src="assets/icons/remove.svg" alt="Remove icon">
+    <section class="tasks_complete">
+      <h3 class="tasks__title">Completed</h3>
+      <ul id="tasks__list_complete" class="tasks__list">
+        <li class="tasks__item">
+          <input class="tasks__input" type="checkbox" checked>
+          <label class="task tasks__label">See the Doctor</label>
+          <input type="text" class="tasks__input task">
+          <button class="tasks__btn tasks__btn_edit">Edit</button>
+          <button class="tasks__btn tasks__btn_delete">
+            <img class="tasks__icon_remove" src="assets/icons/remove.svg" alt="Remove icon">
           </button>
         </li>
       </ul>
