@@ -37,6 +37,7 @@ var createNewTaskElement=function(taskString){
     listItem.className='tasks-list-item';
     checkBox.className = 'task-input';
     deleteButtonImg.className='btn-delete-icon';
+    deleteButtonImg.setAttribute('alt','Remove icon');
 
     //Each elements, needs appending
     checkBox.type="checkbox";
