@@ -22,18 +22,18 @@
       <label for="new-task">Add Item</label>
       <div class="task-row-wrapper">
         <input id="new-task" class="task" type="text">
-        <button>Add</button>
+        <button class="btn-add">Add</button>
       </div>
     </p>
     <h3>Todo</h3>
     <ul id="incomplete-tasks">
-      <li>
+      <li class="incomplete-list">
         <input type="checkbox">
         <label class="task">Pay Bills</label>
         <input type="text" class="task">
         <button class="btn-edit">Edit</button>
         <button class="btn-delete">
-          <img src="assets/icons/remove.svg">
+          <img class="btn-delete-icon" src="assets/icons/remove.svg">
         </button>
       </li>
       <li class="edit-mode">
@@ -42,19 +42,19 @@
         <input type="text" value="Go Shopping" class="task">
         <button class="btn-edit">Save</button>
         <button class="btn-delete">
-          <img src="assets/icons/remove.svg">
+          <img class="btn-delete-icon" src="assets/icons/remove.svg">
         </button>
       </li>
     </ul>
     <h3>Completed</h3>
     <ul id="completed-tasks">
-      <li>
+      <li class="completed-list">
         <input type="checkbox" checked>
         <label class="task">See the Doctor</label>
         <input type="text" class="task">
         <button class="btn-edit">Edit</button>
         <button class="btn-delete">
-          <img src="assets/icons/remove.svg">
+          <img class="btn-delete-icon" src="assets/icons/remove.svg">
         </button>
       </li>
     </ul>
