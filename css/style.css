@@ -55,18 +55,18 @@
 }
 .tasks-list {
 
-  margin:0;
+  margin: 0;
   padding: 0px;
 
 }
 .tasks-list-item, .tasks-list-title {
 
-  list-style:none;
+  list-style: none;
 
 }
 .task-input,.btn{
 
-  outline:none;
+  outline: none;
 
 }
 .btn {
@@ -189,19 +189,19 @@
 /* Edit Task */
 .tasks-list .tasks-list-item .task-input[type=text] {
 
-  display:none
+  display: none
 
 }
 
 .tasks-list .tasks-list-item.edit-mode .task-input[type=text] {
 
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 
 }
 
 .tasks-list .tasks-list-item.edit-mode .task-label {
 
-  display:none;
-  
+  display: none;
+
 }
