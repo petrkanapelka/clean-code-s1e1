@@ -19,11 +19,11 @@
   </header>
   <main class="main">
     <section id="tasks_add">
-      <h2 class="tasks__title hidden">Todo</h2>
+      <h2 class="tasks__title hidden">Add Item</h2>
       <label class="tasks__label" for="tasks__input_new">Add Item</label>
-      <div class="task__row">
-        <input id="tasks__input_new" class="task tasks__input" type="text">
-        <button class=" tasks__btn tasks__btn_add">Add</button>
+      <div class="tasks__row">
+        <input id="tasks__input_new" class="tasks__input tasks__input_text" type="text">
+        <button class="tasks__btn-edit">Add</button>
       </div>
     </section>
     <section class="tasks_incomplete">
@@ -31,20 +31,20 @@
       <ul id="tasks__list_incomplete" class="tasks__list">
         <li class="tasks__item">
           <input class="tasks__input" type="checkbox">
-          <label class="task tasks__label">Pay Bills</label>
-          <input type="text" class="tasks__input task">
-          <button class="tasks__btn tasks__btn_edit">Edit</button>
-          <button class="tasks__btn tasks__btn_delete">
-            <img class="tasks__icon_remove" src="assets/icons/remove.svg" alt="Remove icon">
+          <label class="tasks__label">Pay Bills</label>
+          <input type="text" class="tasks__input tasks__input_text">
+          <button class="tasks__btn-edit">Edit</button>
+          <button class="tasks__btn-delete">
+            <img class="tasks__remove-icon" src="assets/icons/remove.svg" alt="Remove icon">
           </button>
         </li>
         <li class="tasks__item_edit tasks__item">
           <input class="tasks__input" type="checkbox">
-          <label class="task tasks__label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="tasks__input task">
-          <button class="tasks__btn tasks__btn_edit">Save</button>
-          <button class="tasks__btn tasks__btn_delete">
-            <img class="tasks__icon_remove" src="assets/icons/remove.svg" alt="Remove icon">
+          <label class="tasks__label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="tasks__input tasks__input_text">
+          <button class="tasks__btn-edit">Save</button>
+          <button class="tasks__btn-delete">
+            <img class="tasks__remove-icon" src="assets/icons/remove.svg" alt="Remove icon">
           </button>
         </li>
       </ul>
@@ -54,11 +54,11 @@
       <ul id="tasks__list_complete" class="tasks__list">
         <li class="tasks__item">
           <input class="tasks__input" type="checkbox" checked>
-          <label class="task tasks__label">See the Doctor</label>
-          <input type="text" class="tasks__input task">
-          <button class="tasks__btn tasks__btn_edit">Edit</button>
-          <button class="tasks__btn tasks__btn_delete">
-            <img class="tasks__icon_remove" src="assets/icons/remove.svg" alt="Remove icon">
+          <label class="tasks__label">See the Doctor</label>
+          <input type="text" class="tasks__input tasks__input_text">
+          <button class="tasks__btn-edit">Edit</button>
+          <button class="tasks__btn-delete">
+            <img class="tasks__remove-icon" src="assets/icons/remove.svg" alt="Remove icon">
           </button>
         </li>
       </ul>
